@@ -1,0 +1,24 @@
+.modal-options {
+  &__instruction {
+    margin-top: 16px;
+  }
+
+  &__list {
+    margin: 16px 0 16px 16px;
+  }
+
+  &__label {
+    margin-right: 10px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .button {
+      margin: 36px 0 0;
+    }
+  }
+}
